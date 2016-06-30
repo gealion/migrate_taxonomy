@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains migrate_taxonomy.module..
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function migrate_taxonomy_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the migrate_taxonomy module.
+    case 'help.page.migrate_taxonomy':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Set of plugin to help import Taxonomy terms with Drupal 8 Maigrate') . '</p>';
+      return $output;
+
+    default:
+  }
+}
