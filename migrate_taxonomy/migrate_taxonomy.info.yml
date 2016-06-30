@@ -1,0 +1,8 @@
+name: Migrate - Taxonomy
+type: module
+description: Set of plugin to help import Taxonomy terms with Drupal 8 Maigrate
+core: 8.x
+package: Custom
+dependencies:
+  - migrate
+  - migrate_plus

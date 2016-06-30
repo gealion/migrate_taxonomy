@@ -1,0 +1,14 @@
+{
+  "name": "drupal/migrate_taxonomy",
+  "type": "drupal-module",
+  "description": "Set of plugin to help import Taxonomy terms with Drupal 8 Maigrate",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/migrate_taxonomy",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "http://drupal.org/project/issues/migrate_taxonomy",
+    "source": "http://cgit.drupalcode.org/migrate_taxonomy"
+  },
+  "require": { }
+}
